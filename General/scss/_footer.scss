@@ -1,0 +1,77 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .footer__content{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        object{
+            .map__img{
+                width: 760px;
+                height: 600px;
+                border-radius: 10px;
+            }.m__img{
+                width: 16px;
+                height: 16px;
+            }
+        }.footer__swimming{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .swimming__block{
+                width: 352px;
+                height: 250px;
+                background: #018ABE;
+                border-radius: 10px;
+                h1{
+                    font-family: 'El Messiri',sans-serif;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 140%;
+                    margin-top: 20px;
+                    margin-left: 40px;
+                }ul{
+                    li{
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Proxima Nova',sans-serif;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 135%;
+                    }
+                }button{
+                    border-radius: 3px;
+                    background: #fff;
+                    padding: 10px;
+                    border: none;
+                    margin-left: 40px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }.footer__down{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        h2{
+            font-family: 'Proxima Nova',sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 135%;
+        }h3{
+            font-family: 'Proxima Nova',sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 135%;
+        }
+    }
+}
